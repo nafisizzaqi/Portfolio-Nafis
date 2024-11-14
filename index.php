@@ -1,3 +1,12 @@
+<?php
+
+    include 'koneksi.php';
+    $query = "SELECT * FROM users";
+    $query_sql = mysqli_query($koneksi,$query);
+    $tampil = mysqli_fetch_assoc($query_sql);
+
+    print_r($tampil);
+?>
 <!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
 <head>
