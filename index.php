@@ -218,7 +218,7 @@
                     <?php 
                     foreach($ambildata as $tampil){
                     ?>
-                    <div data-aos="fade-down-right">
+                    <div data-aos="fade-down-right" data-aos-duration="1000">
                         <img class="h-60 rounded-lg" src="image/<?= $tampil['image']?>" alt="">
                     </div>
                     <?php 
@@ -228,7 +228,7 @@
                 </div>
 
                 <div class="mt-10">
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-up" data-aos-duration="1000">
                         <img class="h-60 rounded-lg " src="image/portofolio-3.png" alt="">
                     </div>
                 </div>
