@@ -11,7 +11,7 @@
 <body class="bg-[#F2FCFF]">
 
     <!-- Navbar -->
-    <!-- data-aos="fade-down" data-aos-duration="1500" -->
+    
     <?php
      
      include 'koneksi.php';
